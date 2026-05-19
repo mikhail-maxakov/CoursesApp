@@ -97,8 +97,4 @@ app/build/outputs/apk/debug/
 
 ---
 
-# GitHub
 
-```bash
-git clone https://github.com/mikhail-maxakov/CoursesApp.git
-```
