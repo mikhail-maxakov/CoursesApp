@@ -22,25 +22,25 @@
 
 ## Экран авторизации
 
-![Login Screen](photo_2026-05-20_00-37-32(1).jpg)
+![Login Screen](screenshots/login.jpg)
 
 ---
 
 ## Главный экран
 
-![Home Screen](photo_2026-05-20_00-37-31(1).jpg)
+![Home Screen](screenshots/home.jpg)
 
 ---
 
 ## Экран избранного
 
-![Favorites Screen](photo_2026-05-20_00-37-32%20(2)(1).jpg)
+![Favorites Screen](screenshots/favorites.jpg)
 
 ---
 
 ## Список курсов
 
-![Courses Screen](photo_2026-05-20_00-37-32%20(3)(1).jpg)
+![Courses Screen](screenshots/courses.jpg)
 
 ---
 
@@ -94,7 +94,3 @@ APK появится в папке:
 ```text
 app/build/outputs/apk/debug/
 ```
-
----
-
-
