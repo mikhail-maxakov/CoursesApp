@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-mergeDebugResources-47:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-main-50:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-mergeDebugResources-47:\\layout\\item_course.xml",
+        "source": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-main-50:\\layout\\item_course.xml"
+    },
+    {
+        "merged": "com.example.coursesapp-mergeDebugResources-47:/layout/fragment_login.xml",
+        "source": "com.example.coursesapp-main-50:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-mergeDebugResources-47:\\layout\\fragment_account.xml",
+        "source": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-main-50:\\layout\\fragment_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-mergeDebugResources-47:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-main-50:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-mergeDebugResources-47:\\layout\\fragment_favorites.xml",
+        "source": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-main-50:\\layout\\fragment_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-mergeDebugResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\micha\\.gradle\\daemon\\8.4\\com.example.coursesapp-main-50:\\layout\\activity_main.xml"
+    }
+]

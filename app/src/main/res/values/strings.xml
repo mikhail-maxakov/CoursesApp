@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CoursesApp</string>
+
+    <!-- Login -->
+    <string name="login_title">Вход</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="btn_login">Вход</string>
+    <string name="forgot_password">Забыл пароль</string>
+    <string name="no_account">Нет аккаунта? Регистрация</string>
+    <string name="or">или войти через</string>
+    <string name="btn_vk">ВКонтакте</string>
+    <string name="btn_ok">Одноклассники</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_account">Аккаунт</string>
+
+    <!-- Screens -->
+    <string name="screen_home">Курсы</string>
+    <string name="screen_favorites">Избранное</string>
+    <string name="screen_account">Аккаунт</string>
+
+    <!-- Home -->
+    <string name="hint_search">Найти курс</string>
+
+    <!-- Stubs -->
+    <string name="favorites_empty">Здесь будут ваши избранные курсы</string>
+    <string name="account_stub">Раздел в разработке</string>
+
+    <!-- Error -->
+    <string name="btn_retry">Попробовать снова</string>
+    <string name="error_loading">Не удалось загрузить курсы</string>
+
+    <!-- Content descriptions -->
+    <string name="content_desc_course_image">Обложка курса</string>
+    <string name="content_desc_like">Добавить в избранное</string>
+</resources>

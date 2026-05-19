@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_green_dark">#388E3C</color>
+    <color name="bg_image_placeholder">#2A2A2A</color>
+    <color name="bg_primary">#121212</color>
+    <color name="bg_surface">#1E1E1E</color>
+    <color name="colorBackground">#121212</color>
+    <color name="colorError">#CF6679</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorOnError">#000000</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryVariant">#388E3C</color>
+    <color name="colorSecondary">#4CAF50</color>
+    <color name="colorSurface">#1E1E1E</color>
+    <color name="nav_active">#4CAF50</color>
+    <color name="nav_inactive">#616161</color>
+    <color name="stroke_color">#2A2A2A</color>
+    <color name="text_hint">#616161</color>
+    <color name="text_on_accent">#FFFFFF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <dimen name="btn_height">52dp</dimen>
+    <dimen name="btn_icon_size">52dp</dimen>
+    <dimen name="course_image_height">160dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_size_small">16dp</dimen>
+    <dimen name="radius_lg">16dp</dimen>
+    <dimen name="radius_md">12dp</dimen>
+    <dimen name="radius_sm">8dp</dimen>
+    <dimen name="spacing_lg">16dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">24dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_xxl">32dp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_subtitle">16sp</dimen>
+    <dimen name="text_title">24sp</dimen>
+    <string name="account_stub">Раздел в разработке</string>
+    <string name="app_name">CoursesApp</string>
+    <string name="btn_login">Вход</string>
+    <string name="btn_ok">Одноклассники</string>
+    <string name="btn_retry">Попробовать снова</string>
+    <string name="btn_vk">ВКонтакте</string>
+    <string name="content_desc_course_image">Обложка курса</string>
+    <string name="content_desc_like">Добавить в избранное</string>
+    <string name="error_loading">Не удалось загрузить курсы</string>
+    <string name="favorites_empty">Здесь будут ваши избранные курсы</string>
+    <string name="forgot_password">Забыл пароль</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_search">Найти курс</string>
+    <string name="login_title">Вход</string>
+    <string name="nav_account">Аккаунт</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_home">Главная</string>
+    <string name="no_account">Нет аккаунта? Регистрация</string>
+    <string name="or">или войти через</string>
+    <string name="screen_account">Аккаунт</string>
+    <string name="screen_favorites">Избранное</string>
+    <string name="screen_home">Курсы</string>
+    <style name="Theme.CoursesApp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_surface</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+    </style>
+    <style name="Widget.App.Button.Icon" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/bg_surface</item>
+        <item name="cornerRadius">@dimen/radius_md</item>
+        <item name="iconTint">@color/text_secondary</item>
+        <item name="strokeColor">@color/stroke_color</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:text">@null</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.App.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_on_accent</item>
+        <item name="backgroundTint">@color/accent_green</item>
+        <item name="cornerRadius">@dimen/radius_md</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Widget.App.Button.Social" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="strokeColor">@color/stroke_color</item>
+        <item name="cornerRadius">@dimen/radius_md</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="backgroundTint">@color/bg_surface</item>
+    </style>
+</resources>

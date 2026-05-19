@@ -1,0 +1,6 @@
+-keep class com.example.coursesapp.data.model.** { *; }
+-keep class com.example.coursesapp.domain.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**
